@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="All rights reserved"
+
+[[mods]] #mandatory
+modId="rainbowmod" #mandatory
+version="1.0" #mandatory
+displayName="Rainbow Mod"
+credits="thanks to the good ole spingdogger for sparking my interest in comp sci" #optional
+authors="Toxicmix" #optional
+description='''
+A recreation of a mod that i tried to make back when i was 12.
+''' #mandatory

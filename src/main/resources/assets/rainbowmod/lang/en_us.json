@@ -1,0 +1,8 @@
+{
+	//items
+	"item.rainbowmod.example_item": "Example Item",
+	"item.rainbowmod.rainbow_ingot": "Rainbow Ingot",
+	// blocks
+	"block.rainbowmod.example_block": "Example Block",
+	"block.rainbowmod.rainbow_block": "Rainbow Block"
+}

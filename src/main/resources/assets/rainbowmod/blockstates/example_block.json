@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"": { "model": "rainbowmod:block/example_block" }
+	}
+}
