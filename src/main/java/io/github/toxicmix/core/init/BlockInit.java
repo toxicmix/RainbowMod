@@ -28,4 +28,11 @@ public class BlockInit {
 					.harvestLevel(-1)
 					.sound(SoundType.METAL)));
 	
+	public static final RegistryObject<Block> RAINBOW_ORE = BLOCKS.register("rainbow_ore", 
+			() -> new Block(AbstractBlock.Properties.create(Material.GLASS)
+					.hardnessAndResistance(15f , 30f)
+					.harvestTool(ToolType.PICKAXE)
+					.harvestLevel(-1)
+					.sound(SoundType.GLASS)));
+	
 }
