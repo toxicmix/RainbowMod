@@ -7,6 +7,10 @@
 	"block.rainbowmod.example_block": "Example Block",
 	"block.rainbowmod.rainbow_block": "Rainbow Block",
 	"block.rainbowmod.rainbow_ore": "Rainbow Ore",
+	// tools
+	"item.rainbowmod.rainbow_sword": "Rainbow Sword",
+	// armor
+	"item.rainbowmod.rainbow_helmet": "Rainbow Helmet",
 	// misc
 	"itemGroup.rainbowtab": "Rainbow Items"
 }
