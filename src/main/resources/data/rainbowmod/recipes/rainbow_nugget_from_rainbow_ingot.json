@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rainbowmod:rainbow_ingot"
+    }
+  ],
+  "result": {
+    "item": "rainbowmod:rainbow_nugget",
+    "count": 9
+  }
+}

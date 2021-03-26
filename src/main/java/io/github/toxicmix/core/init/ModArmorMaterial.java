@@ -13,8 +13,9 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements IArmorMaterial {
 
-    RAINBOW(RainbowMod.MOD_ID + ":ruby", 25, new int[] { 2, 5, 6, 2 }, 18,
-            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0, () -> { return Ingredient.fromItems(ItemInit.RAINBOW_INGOT.get()); },0);
+	// this is the rainbow material itself
+    RAINBOW(RainbowMod.MOD_ID + ":rainbow", 40, new int[] { 4, 10, 12, 4 }, 50,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 3.0f, () -> { return Ingredient.fromItems(ItemInit.RAINBOW_INGOT.get()); }, 1.0f);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] { 11, 16, 15, 13 };
     private final String name;

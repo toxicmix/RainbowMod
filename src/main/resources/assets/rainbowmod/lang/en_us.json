@@ -9,8 +9,14 @@
 	"block.rainbowmod.rainbow_ore": "Rainbow Ore",
 	// tools
 	"item.rainbowmod.rainbow_sword": "Rainbow Sword",
+	"item.rainbowmod.rainbow_pickaxe": "Rainbow Pickaxe",
+	"item.rainbowmod.rainbow_axe": "Rainbow Axe",
+	"item.rainbowmod.rainbow_shovel": "Rainbow Shovel",
 	// armor
 	"item.rainbowmod.rainbow_helmet": "Rainbow Helmet",
+	"item.rainbowmod.rainbow_chestplate": "Rainbow Chestplate",
+	"item.rainbowmod.rainbow_leggings": "Rainbow Leggings",
+	"item.rainbowmod.rainbow_boots": "Rainbow Boots",
 	// misc
 	"itemGroup.rainbowtab": "Rainbow Items"
 }

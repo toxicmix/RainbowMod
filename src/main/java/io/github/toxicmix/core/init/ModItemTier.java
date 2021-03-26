@@ -7,7 +7,7 @@ import net.minecraft.item.crafting.Ingredient;
 
 public enum ModItemTier implements IItemTier {
 
-    RAINBOW(3, 800, 7.0F, 3.0F, 12, () -> {
+    RAINBOW(5, 800, 7.0F, 3.0F, 12, () -> {
         return Ingredient.fromItems(ItemInit.RAINBOW_INGOT.get());
     });
 
@@ -19,12 +19,12 @@ public enum ModItemTier implements IItemTier {
     private final Supplier<Ingredient> repairMaterial;
 
     ModItemTier(int harvestLevel, int maxUses, float efficiency, float attackDamage, int enchantability, Supplier<Ingredient> repairMaterial) {
-        this.harvestLevel = harvestLevel;
-        this.maxUses = maxUses;
-        this.efficiency = efficiency;
-        this.attackDamage = attackDamage;
-        this.enchantability = enchantability;
-        this.repairMaterial = repairMaterial;
+        this.harvestLevel = harvestLevel; // what it can mine
+        this.maxUses = maxUses; // durability
+        this.efficiency = efficiency; // speed
+        this.attackDamage = attackDamage; // damage
+        this.enchantability = enchantability; // how good enchants are per level
+        this.repairMaterial = repairMaterial; // what to repair it with
     }
 
     @Override
